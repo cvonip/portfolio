@@ -1,30 +1,10 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #FFC8DD, #FFAFCC);
-    margin: 0;
-    color: #6A0572;
-}
 
-.intro {
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.intro h1 {
-    font-size: 3rem;
-    color: #6A0572;
-}
-
-.intro p {
-    font-size: 1.5rem;
-    color: #6A0572;
-}
 /* General styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #FFC8DD, #FFAFCC);
+    background-color: #FAF5FF;
     margin: 0;
-    color: #6A0572;
+    color: #4A4A4A;
 }
 
 /* Intro section */
@@ -116,10 +96,161 @@ button:hover {
         opacity: 1;
     }
 }
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 html {
     scroll-behavior: smooth;
+}
     .element {
         padding: 20px; /* Applies 20px padding on all sides */
     }
-    
+.navbar {
+    background-color: #6A0572;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    top: 0p;
+    box-shadow: 0px 2px 10px rgba (0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    transition: color 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    list-style: none;
+}
+.navbar a:hover {
+    color: #FFAFCC;
+}
+
+.intro {
+    background: linear-gradient(135deg, #FFC8DD, #FFAFCC);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.about {
+    background: #FFEBF1;
+    padding: 50px 20px;
+    text-align: center;
+}
+.skills {
+    background: #E0BBE4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects {
+    background: #FFDEE9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    color: #6A0572;
+}
+
+.skills p {
+    font-size: 1.2rem;
+    color: #6A0572;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #FFc8dd;
+    color: #6A0572;
+    font-size: 1rem;
+    border-top: 2px solid #ffafcc
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+section h2 {
+    font-size: 2.2rem;
+    color: #6a0572;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FFC8DD;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #4a4a4a;
+}
+
+.card {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #6a0572
+}
+
+.card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 60px 20px;
+}
+
+footer a {
+    color: #6a0572;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ff8fb1;
+}

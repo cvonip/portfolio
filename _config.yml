@@ -4,3 +4,9 @@ description: "Claudia Hester's First Portfolio"
 baseurl: "/portfolio"
 url: "https://cvonip.github.io"
 github_username: "cvonip"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
