@@ -1,7 +1,6 @@
-# Site settings
-title: "My Awesome Portfolio"
+title: "My Portfolio"
 email: "claudiavihester@gmail.com"
-description: "Claudia Hester's Awesome First Portfolio"
-baseurl: "/portfolio" # Use the repository name if hosting in a subdirectory
-url: "https://cvonip.github.io" # Your site's base URL
+description: "Claudia Hester's First Portfolio"
+baseurl: "/portfolio"
+url: "https://cvonip.github.io"
 github_username: "cvonip"
